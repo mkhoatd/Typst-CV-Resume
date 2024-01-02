@@ -5,16 +5,16 @@
 #let fonttype = "macfont"
 #show: mainbody => main(
 continue_header: "false",
-name: [#lorem(2)], //name:"" or name:[]
-address: [#lorem(4)],
+name: [Tran Dinh Minh Khoa], //name:"" or name:[]
+// address: [#lorem(4)],
 lastupdated: "true",
 pagecount: "true",
 date:"2023.4.7",
 contacts: (
-(text:"08856",link:""),
-(text:"example.com",link:"https://www.example.com"),
-(text:"github.com",link:"https://www.github.com"),
-(text:"123@example.com",link:"mailto:123@example.com"),
+(text:"+84915960597",link:""),
+(text:"mkhoatd.me",link:"https://mkhoatd.me"),
+(text:"github.com/mkhoatd",link:"https://github.com/mkhoatd"),
+(text:"mkhoatd@gmail.com",link:"mailto:mkhoatd@gmail.com"),
   ),
 bibfile: [bib.json],
 mainbody

@@ -3,7 +3,7 @@
 #let headings_colour= rgb("#6A6A6A")
 #let subheadings_colour= rgb("#333333")
 // Set font type for all text
-#let fonttype = ""
+#let fonttype = "macfont"
 
 #let font_head = {
     if fonttype == "macfont" {
@@ -209,7 +209,6 @@ set page(
     header:{
     // Head Name Section
     text(25pt,font: font_head,fill:primary_colour, weight:"light",top-edge:"baseline",bottom-edge:"baseline",baseline: 12pt)[#align(center,[#name])]
-    text(11pt,font:font_descript,fill:headings_colour, weight: "medium",top-edge:"baseline",bottom-edge:"baseline")[#align(center,[#address])]
     align(center)[#display(contacts)]
     line(length: 100%, stroke:0.5pt + primary_colour)   
     },
