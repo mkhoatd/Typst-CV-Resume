@@ -124,7 +124,7 @@
 // Description of a job, degree, etc
 #let descript(content) = {
     text(12pt, font: font_descript, fill: subheadings_colour,weight: "semibold",)[#content\ ]
-    }
+}
 // Job title
 #let jobtitle(firm, title) = {
     text(12pt,font: font_subsection, fill: subheadings_colour,weight: "bold", )[#upper[#firm] ] 
